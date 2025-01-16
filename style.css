@@ -1,6 +1,51 @@
 /* Cascading Style Sheets */
 
+p{
+    font-size: 5pt;
+}
 body{
     background-color: rgba(30, 4, 55, 0.468);
+    color: rgb(200, 178, 244);
+    font-size: 16pt;
 }
 
+body{
+    font-size: 23pt;
+}
+
+main{
+    width:500px;
+    margin:0 auto 0 auto;
+}
+h2{
+    text-align: center;
+}
+header h1{ /* csak a headerekben lévő h1ekre vonathkozik*/
+    text-align: center;
+}
+
+/* box model */
+
+div.sajat_doboz{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 13px solid black;
+    padding: 14px;
+}
+
+/* CASCADING */
+
+/*
+    1. a drowser beállításai
+    2. css fájl tulajdonságai
+    3. embedded css a html fájlban
+    4. inline css a html tagben
+    5. user beállításai (pl: CTRL+görgő)
+*/
+
+/*
+a block olyan széles amilyen csak lehet
+az inline olyan szűk amennyire csak lehet
+*/
